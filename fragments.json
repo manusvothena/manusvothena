@@ -1,0 +1,68 @@
+[
+  {
+    "id": "tiny",
+    "name": "Tiny",
+    "image": "/assets/fragment_tiny.png",
+    "description": "The dreamer who connects worlds through imagination. Tiny possesses the rare ability to traverse between the waking world and the dreamscape, bringing stories and ideas back and forth."
+  },
+  {
+    "id": "isamu",
+    "name": "Isamu",
+    "image": "/assets/fragment_isamu.png",
+    "description": "Guardian of ancient wisdom and keeper of forgotten memories. A noble samurai warrior who has existed since the first dream was dreamt, collecting knowledge throughout the ages with his twin blades."
+  },
+  {
+    "id": "luseira",
+    "name": "Luseira",
+    "image": "/assets/fragment_luseira.png",
+    "description": "Weaver of light who illuminates the darkest corners of dreams. Her presence brings clarity to confusion and hope to despair with her radiant golden energy."
+  },
+  {
+    "id": "luneira",
+    "name": "Luneira",
+    "image": "/assets/fragment_luneira.png",
+    "description": "Twin spirit of moonlight who guides dreamers through the night. Where Luseira brings the light of day, Luneira commands the gentle glow of night, riding her ethereal unicorn companion."
+  },
+  {
+    "id": "harvique",
+    "name": "Harvique",
+    "image": "/assets/fragment_harvique.png",
+    "description": "Collector of dream fragments and lost memories. A whimsical jester-like being who travels the dreamscape with multiple arms, gathering pieces of forgotten dreams to preserve them in his magical staff."
+  },
+  {
+    "id": "galaras",
+    "name": "Galaras",
+    "image": "/assets/fragment_galaras.png",
+    "description": "Celestial navigator who charts courses through dream realms. With his planetary crown and clockwork heart, he helps dreamers find their way through the ever-changing cosmic landscape."
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma",
+    "image": "/assets/fragment_prisma.png",
+    "description": "Keeper of colors who paints emotions into the fabric of dreams. Her palette contains hues that exist nowhere else in any world."
+  },
+  {
+    "id": "spectrum",
+    "name": "Spectrum",
+    "image": "/assets/fragment_spectrum.png",
+    "description": "Master of illusions who bends reality within the dreamscape. What seems impossible becomes possible in his presence."
+  },
+  {
+    "id": "ren",
+    "name": "Ren",
+    "image": "/assets/fragment_ren.png",
+    "description": "Shapeshifter who moves between worlds with fluid grace. Ren can take any form imaginable, adapting to any dream environment."
+  },
+  {
+    "id": "fisher",
+    "name": "Fisher",
+    "image": "/assets/fragment_fisher.png",
+    "description": "Collector of stories who fishes for tales in the sea of consciousness. Every dream has a story, and Fisher knows them all."
+  },
+  {
+    "id": "theancientwatcher",
+    "name": "The Ancient Watcher",
+    "image": "/assets/fragment_theancientwatcher.png",
+    "description": "Eternal guardian who has witnessed the birth and death of countless dreams. Some say The Ancient Watcher was the first dreamer of all."
+  }
+]

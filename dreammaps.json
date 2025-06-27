@@ -1,0 +1,44 @@
+[
+  {
+    "id": "starliumcircus",
+    "title": "Starlium Circus",
+    "image": "/assets/map_starliumcircus.png",
+    "description": "A magical circus where dreams perform under the celestial big top, filled with wonder and impossible acts. The Starlium Circus is a place of wonder and excitement, where dreams come to life under the celestial big top. It is a place where anything is possible, and where the imagination knows no bounds. The circus is home to a variety of performers, each with their own unique talents and abilities. From acrobats and jugglers to clowns and fortune tellers, there is something for everyone at the Starlium Circus."
+  },
+  {
+    "id": "luminouswood",
+    "title": "Luminous Wood",
+    "image": "/assets/map_luminouswood.png",
+    "description": "An enchanted forest where trees glow with the memories of ancient dreamers, each leaf holding a whispered secret. The Luminous Wood is a place of peace and tranquility, where the trees whisper secrets to those who listen. It is a place where the memories of ancient dreamers are preserved, and where the imagination can run wild. The wood is home to a variety of creatures, each with their own unique connection to the dream world. From the gentle sprites who tend to the glowing trees to the wise old owls who guard the forest's secrets, the Luminous Wood is a place of wonder and enchantment."
+  },
+  {
+    "id": "lakeoflostskies",
+    "title": "Lake of Lost Skies",
+    "image": "/assets/map_lakeoflostskies.png",
+    "description": "A vast lake that reflects skies from other worlds and times, where lost horizons find their way home. The Lake of Lost Skies is a place of mystery and reflection, where the waters reflect skies from other worlds and times. It is a place where lost horizons find their way home, and where the imagination can soar to new heights. The lake is home to a variety of creatures, each with their own unique connection to the dream world. From the ethereal swans who glide across the surface to the wise old turtles who dwell in the depths, the Lake of Lost Skies is a place of wonder and enchantment."
+  },
+  {
+    "id": "archivelostdreams",
+    "title": "Archive of Lost Dreams",
+    "image": "/assets/map_archivelostdreams.png",
+    "description": "A vast library containing dreams that have been forgotten by their dreamers, preserved in crystal towers and floating tomes. The Archive of Lost Dreams is a place of knowledge and mystery, where dreams that have been forgotten by their dreamers are preserved in crystal towers and floating tomes. It is a place where the past is never truly lost, and where the imagination can find new inspiration. The archive is home to a variety of creatures, each with their own unique connection to the dream world. From the silent librarians who guard the ancient tomes to the mischievous sprites who flit through the crystal towers, the Archive of Lost Dreams is a place of wonder and enchantment."
+  },
+  {
+    "id": "resonancechamber",
+    "title": "Resonance Chamber",
+    "image": "/assets/map_resonancechamber.png",
+    "description": "A sacred space where dream energies converge and amplify, featuring geometric patterns that channel pure imagination. The Resonance Chamber is a place of power and transformation, where dream energies converge and amplify. It is a place where the imagination can be channeled and focused, and where the boundaries between dream and reality blur. The chamber is home to a variety of creatures, each with their own unique connection to the dream world. From the wise old shamans who guide dreamers through the chamber to the playful sprites who dance in the geometric patterns, the Resonance Chamber is a place of wonder and enchantment."
+  },
+  {
+    "id": "seawhisperedhistories",
+    "title": "Sea of Whispered Histories",
+    "image": "/assets/map_seawhisperedhistories.png",
+    "description": "An ocean where each wave carries the whisper of a forgotten story, watched over by the ancient eye in the sky. The Sea of Whispered Histories is a place of mystery and wonder, where each wave carries the whisper of a forgotten story. It is a place where the past is never truly lost, and where the imagination can find new inspiration. The sea is home to a variety of creatures, each with their own unique connection to the dream world. From the wise old seers who interpret the whispers of the waves to the playful dolphins who dance in the moonlight, the Sea of Whispered Histories is a place of wonder and enchantment."
+  },
+  {
+    "id": "whisperingplains",
+    "title": "Whispering Plains",
+    "image": "/assets/map_whisperingplains.png",
+    "description": "Vast grasslands where the wind carries messages between dreaming minds, with twin spires marking the horizon. The Whispering Plains are a place of peace and tranquility, where the wind carries messages between dreaming minds. It is a place where the imagination can run wild, and where the boundaries between dream and reality blur. The plains are home to a variety of creatures, each with their own unique connection to the dream world. From the gentle sprites who tend to the tall grass to the wise old centaurs who roam the plains, the Whispering Plains are a place of wonder and enchantment."
+  }
+]

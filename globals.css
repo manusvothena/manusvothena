@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  cursor: url('/assets/logotinyvothena.png'), auto;
+}
+
+@layer utilities {
+  .drop-shadow-glow {
+    filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.4));
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 85, 247, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 85, 247, 0.7);
+}
+
+/* PDF viewer styles */
+.react-pdf__Document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.react-pdf__Page {
+  margin: 1rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.react-pdf__Page__canvas {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  /* Prevent horizontal scroll on mobile */
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  /* Optimize font sizes for readability */
+  body {
+    font-size: 16px; /* Minimum font size untuk body text */
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Mengurangi ukuran h1 agar muat di layar kecil */
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+  }
+
+  p, li, a, button, input, select {
+    font-size: 1rem; /* Minimum 16px untuk teks biasa */
+  }
+
+  /* Ensure touch targets are large enough */
+  button,
+  [role="button"],
+  a,
+  input,
+  select {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0.5rem;
+    touch-action: manipulation; /* Meningkatkan responsivitas sentuhan */
+  }
+
+  /* Optimize images for mobile */
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* Mencegah gambar terpotong */
+  }
+
+  /* Adjust containers for mobile */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 100%; /* Mencegah container melebihi lebar layar */
+  }
+
+  /* Optimize grid layouts */
+  .grid {
+    gap: 0.5rem; /* Mengurangi jarak antar grid untuk layar kecil */
+  }
+
+  /* Optimize inputs and selects */
+  input, select {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Optimize text rendering on mobile */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Landscape mobile optimization */
+@media (max-width: 896px) and (orientation: landscape) and (max-height: 500px) {
+  /* Adjust for landscape mobile */
+  .mobile-landscape-adjust {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  /* Optimize font sizes for landscape */
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  /* Ensure touch targets remain large */
+  button,
+  [role="button"],
+  a,
+  input,
+  select {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0.5rem;
+  }
+
+  /* Optimize images for landscape */
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Ensure crisp rendering on retina displays */
+  img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
